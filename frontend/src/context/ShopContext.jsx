@@ -14,7 +14,7 @@ import axios from "axios";
       typeof import.meta.env.VITE_BACKEND_URL === 'string'
         ? import.meta.env.VITE_BACKEND_URL.trim()
         : ''
-    ).replace(/\/$/, '') || 'http://localhost:5000';
+    ).replace(/\/$/, '') || 'https://ecommerce2-n3tl.onrender.com';
     const [search, setSearch] = useState('');
     const [showSearch, setShowSearch] = useState(false);
     const [products, setProducts] = useState([])
