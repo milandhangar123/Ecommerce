@@ -38,7 +38,7 @@ const Navbar = () => {
           <p>CONTACT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
-        <button onClick={() => window.location.href = "http://localhost:5174/"} className="rounded-md border border-slate-300 px-4 py-2 text-sm text-slate-600 shadow-sm transition-all hover:bg-slate-800 hover:text-white hover:border-slate-800 focus:bg-slate-800 focus:text-white active:bg-slate-800 active:text-white disabled:opacity-50 disabled:pointer-events-none">Admin Panel</button>
+        <button onClick={() => window.location.href = "https://ecommerce-zoh6.vercel.app/"} className="rounded-md border border-slate-300 px-4 py-2 text-sm text-slate-600 shadow-sm transition-all hover:bg-slate-800 hover:text-white hover:border-slate-800 focus:bg-slate-800 focus:text-white active:bg-slate-800 active:text-white disabled:opacity-50 disabled:pointer-events-none">Admin Panel</button>
       </ul>
       <div className="flex items-center gap-6">
         <img onClick={()=>setShowSearch(true)} src={assets.search_icon} className="w-5 cursor-pointer" alt="" />
